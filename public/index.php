@@ -40,8 +40,6 @@ function login($login, $password){
     'serviceId' => 4728
   ));
 
-  var_dump($body);
-
   return sendRequest('authentication', array(
     'base' => 'https://login.globo.com/api/',
     'body' => $body
