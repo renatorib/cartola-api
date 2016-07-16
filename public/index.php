@@ -53,7 +53,8 @@ function api($arguments){
   $path = $_GET['p'] . '?' . http_build_query($arguments);
 
   $results = sendRequest($path, array(
-    'token' => isset($_GET['token']) ? $_GET['token'] : false
+    'token' => isset($_GET['token']) ? $_GET['token'] : false,
+    'body' => !empty($_POST) ? $_POST : false
   ));
 
   if(trim($results) == '404 page not found') {
