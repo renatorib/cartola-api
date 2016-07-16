@@ -1,6 +1,6 @@
 # Cartola Api
 
-Cartola Api é um wrapper da Api oficial do CartolaFC. Com este wrapper você consegue rodar em seu servidor, e fazer requests via ajax do teu site, já que a api oficial bloqueia qualquer requisição ajax que não for do seu domínio (sniff).  
+Cartola Api é um wrapper da Api oficial do CartolaFC. Com este wrapper você consegue rodar em seu servidor, e fazer requests via ajax do teu site, já que a api oficial bloqueia qualquer requisição ajax que não for do seu domínio (CORS).  
 
 A API é um arquivo único, que fica dentro de `public/index.php`
 Jogue o arquivo em seu servidor e voilà.
