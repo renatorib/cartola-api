@@ -62,7 +62,7 @@ GET `http://localhost:4123/?p=ligas&q=<nome-da-liga>`
 GET `http://localhost:4123/?p=esquemas`
 
 ### Login
-Para fazer o login, mande `login` e `password` para `http://localhost:4123/?p=login`, exemplo:
+Para fazer o login, mande `login` e `password` para `http://localhost:4123/?p=login`, exemplo:  
 GET `http://localhost:4123/?p=login&login=meuemail@gmail.com&password=123456`
 
 Se os dados estiverem corretos, retornará um json assim:
@@ -82,7 +82,7 @@ Depois de realizado o login, use o token nas rotas a seguir:
 GET `http://localhost:4123/?p=auth/ligas&token=<token>`
 
 **Retornar informações do time do usuario logado.**  
-GET `http://localhost:4123/?p=auth/time&token=<token>`
+GET `http://localhost:4123/?p=auth/time&token=<token>`  
 GET `http://localhost:4123/?p=auth/time/info&token=<token>`
 
 **Busca informações de uma liga específica, usar o slug da liga.**  
