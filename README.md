@@ -91,7 +91,7 @@ GET `http://localhost:4123/?p=auth/time/info&token=<token>`
 GET `http://localhost:4123/?p=auth/liga/<slug-da-liga>&token=<token>`
 
 **Salvar a escalação do time.**  
-POST `http://localhost:4123/?p=auth/time/salvar&token=<token>`
+POST `http://localhost:4123/?p=auth/time/salvar&token=<token>`  
 BODY <exemplo>
 ```json
 {
